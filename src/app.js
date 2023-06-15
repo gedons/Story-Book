@@ -60,11 +60,11 @@ app.set('views', viewspath)
 
 //session 
 app.use(sessionstorybooks({
-    secret: 'Lomoe',
+    secret: 'mongodb+srv://gedoni:<blues0001153>@cluster0.kiocya5.mongodb.net/?retryWrites=true&w=majority',
     resave: false,
     saveUninitialized: false,
     store : mongoStore.create({
-        mongoUrl: 'Your MongoDB secrey Key'
+        mongoUrl: 'mongodb+srv://gedoni:<blues0001153>@cluster0.kiocya5.mongodb.net/?retryWrites=true&w=majority'
 
       })
 }))
